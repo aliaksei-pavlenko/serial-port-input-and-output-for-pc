@@ -19,3 +19,6 @@ Explanation:
    cs8 → character size 8 bits
    -cstopb → 1 stop bit (cstopb = 2 stop bits)
    -parenb → disable parity
+
+and also 
+stty -F /dev/ttyUSB0 raw -echo
