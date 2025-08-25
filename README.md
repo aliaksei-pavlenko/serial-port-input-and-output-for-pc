@@ -4,3 +4,5 @@ this is application that do 3 things
 3) change setting of controlling terminal in raw mode + switch off echo but dont touch isig to be able terminate via same terminal emulator
    and btw there is handler that on exit restore all terminal setting that was before start of this application
    and this "transparent" mode is needed to avoid echo and line discipline and get ALL bytes that controlling terminal get - so just pass except that relate to signals
+
+dont forget that on /dev/ttyUSB0 terminal driver make raw and -echo mode - also that it pass data without any holding it
