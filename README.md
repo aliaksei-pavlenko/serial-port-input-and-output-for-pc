@@ -15,9 +15,13 @@ unit 0 means first com port
 setting of ttyUSB0 driver
 stty -F /dev/ttyUSB0 115200 cs8 -cstopb -parenb
 Explanation:
+
    115200 → baud rate
+   
    cs8 → character size 8 bits
+   
    -cstopb → 1 stop bit (cstopb = 2 stop bits)
+   
    -parenb → disable parity
 
 and also 
